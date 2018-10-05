@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B09C856E2162A49000E53B92"
-               BuildableName = "integers"
-               BlueprintName = "integers"
-               ReferencedContainer = "container:integers.xcodeproj">
+               BlueprintIdentifier = "B0EA1C742162E4DE003508A2"
+               BuildableName = "io"
+               BlueprintName = "io"
+               ReferencedContainer = "container:io.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B09C856E2162A49000E53B92"
-            BuildableName = "integers"
-            BlueprintName = "integers"
-            ReferencedContainer = "container:integers.xcodeproj">
+            BlueprintIdentifier = "B0EA1C742162E4DE003508A2"
+            BuildableName = "io"
+            BlueprintName = "io"
+            ReferencedContainer = "container:io.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B09C856E2162A49000E53B92"
-            BuildableName = "integers"
-            BlueprintName = "integers"
-            ReferencedContainer = "container:integers.xcodeproj">
+            BlueprintIdentifier = "B0EA1C742162E4DE003508A2"
+            BuildableName = "io"
+            BlueprintName = "io"
+            ReferencedContainer = "container:io.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B09C856E2162A49000E53B92"
-            BuildableName = "integers"
-            BlueprintName = "integers"
-            ReferencedContainer = "container:integers.xcodeproj">
+            BlueprintIdentifier = "B0EA1C742162E4DE003508A2"
+            BuildableName = "io"
+            BlueprintName = "io"
+            ReferencedContainer = "container:io.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

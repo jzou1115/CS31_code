@@ -11,14 +11,33 @@ using namespace std;
 
 int main() {
     //Delaring some variables of type float
-    float myFirstFloat, mySecondFloat, myThirdFloat, myFourthFloat, myFifthFloat;
+    float myFirstFloat=5.5;
+    float mySecondFloat=10.2;
+    float myThirdFloat, myFourthFloat, myFifthFloat, mySixthFloat;
     
-    //Adding, multiplying, and dividing work like a calculator.
+    //Adding, subtracting multiplying, and dividing work like a calculator.
+    myThirdFloat = myFirstFloat + mySecondFloat;
+    cout << "myFirstFloat + mySecondFloat = " << myThirdFloat << endl;
     
-    //Implicit assignment: changing type of float to int
+    myFourthFloat = myFirstFloat - mySecondFloat;
+    cout << "myFirstFloat - mySecondFloat = " << myFourthFloat << endl;
     
-    //Implicit assignment: changing type of int to float
+    myFifthFloat = myFirstFloat * mySecondFloat;
+    cout << "myFirstFloat * mySecondFloat = " << myFifthFloat << endl;
     
-    //Overflow
+    mySixthFloat = myFirstFloat / mySecondFloat;
+    cout << "myFirstFloat / mySecondFloat = " << mySixthFloat << endl;
+    
+    //Implicit assignment: assign type of int to float
+    int myInt = 6;
+    myFirstFloat = myInt;
+    cout << "myFirstFloat = myInt = " << myFirstFloat << endl;
+    
+    //Implicit assignment: assign type of float to int
+    //decimal chopped off
+    //Usually not recommended.  Some compilers treat differently.
+    myInt = mySecondFloat;
+    cout << "myInt's new value is: " << myInt << endl;
+    
     return 0;
 }
