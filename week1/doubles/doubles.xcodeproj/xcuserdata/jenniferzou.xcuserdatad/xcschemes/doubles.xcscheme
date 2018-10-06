@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B09C85812162AD0F00E53B92"
-               BuildableName = "floats"
-               BlueprintName = "floats"
-               ReferencedContainer = "container:floats.xcodeproj">
+               BlueprintIdentifier = "B0190A8521683B4A004A1200"
+               BuildableName = "doubles"
+               BlueprintName = "doubles"
+               ReferencedContainer = "container:doubles.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B09C85812162AD0F00E53B92"
-            BuildableName = "floats"
-            BlueprintName = "floats"
-            ReferencedContainer = "container:floats.xcodeproj">
+            BlueprintIdentifier = "B0190A8521683B4A004A1200"
+            BuildableName = "doubles"
+            BlueprintName = "doubles"
+            ReferencedContainer = "container:doubles.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B09C85812162AD0F00E53B92"
-            BuildableName = "floats"
-            BlueprintName = "floats"
-            ReferencedContainer = "container:floats.xcodeproj">
+            BlueprintIdentifier = "B0190A8521683B4A004A1200"
+            BuildableName = "doubles"
+            BlueprintName = "doubles"
+            ReferencedContainer = "container:doubles.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B09C85812162AD0F00E53B92"
-            BuildableName = "floats"
-            BlueprintName = "floats"
-            ReferencedContainer = "container:floats.xcodeproj">
+            BlueprintIdentifier = "B0190A8521683B4A004A1200"
+            BuildableName = "doubles"
+            BlueprintName = "doubles"
+            ReferencedContainer = "container:doubles.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

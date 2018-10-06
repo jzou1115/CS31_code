@@ -18,5 +18,6 @@ int main() {
     */
     cout << "Hello, World!\n";
     cout << "Hello, world!" << endl;
+    std::cout <<  "Hello, World!\n";
     return 0;
 }

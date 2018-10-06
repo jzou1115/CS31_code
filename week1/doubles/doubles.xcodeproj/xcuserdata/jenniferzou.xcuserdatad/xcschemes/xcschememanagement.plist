@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>floats.xcscheme</key>
+		<key>doubles.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>B09C85812162AD0F00E53B92</key>
+		<key>B0190A8521683B4A004A1200</key>
 		<dict>
 			<key>primary</key>
 			<true/>
