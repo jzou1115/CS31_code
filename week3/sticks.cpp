@@ -41,7 +41,7 @@ int main ()
 	//probability that pieces make a triangle
 	double probability = triangle / numSimulations;
 
-	cout << "The emirical probaility is " << probability << endl;
+	cout << "The empirical probability is " << probability << endl;
 
 	return 0;
 }
