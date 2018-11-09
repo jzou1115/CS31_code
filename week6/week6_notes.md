@@ -129,3 +129,51 @@ int main(){
         return 0;
 }
 ```
+
+## Worksheet 5
+
+### Question 1
+
+Write a function that inserts a character 'c' into a c string (str) at index ind.  Let the maximum length of the array be max.  If the insertion is successful, return true.  Otherwise, return false.
+
+Example:
+```cpp
+char test[20] = "aaaaaa";
+bool res = insert(test, 20, 1, 'b'); // res should now store "abaaaaa"
+```
+**Question:** When does this function return false?
+- ind < 0
+- ind > max
+- the length of the string is already max -1
+
+```cpp
+bool insert(char str[], int max, int ind, char c){
+  //Invalid index
+  if(ind<0) 
+     return false;
+  int len = strlen(str);
+  
+  //The insertion place is outside of the string OR 
+  //The length of the string is already max-1.  Adding another character would get rid of the sentinel.
+  if(ind > len || len+1 >= max)
+    return false;
+  
+  //Starting from position ind, insert c
+  //Then, repeatedly shift characters by one position to the left
+  char charToInsert = c;
+  do{
+    char temp = str[ind];
+    str[ind] = charToInsert;
+    charToInsert = temp;
+    ind++;
+  } while (charToInsert != '\0');  // Stop shifting characters when sentinel is reached
+  
+  //Add sentinel to the end of the c string
+  str[ind+1] = '\0';
+  
+  return true;
+      
+}
+```
+## Homework 5 Question and Answer Session
+To be completed after discussion section.
