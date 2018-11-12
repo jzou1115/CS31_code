@@ -27,17 +27,17 @@ cout << strlen(s2) << endl;
 - You are supposed to ignore certain charactes in your homework, but you cannot change the input.  You may want to make a copy of various c strings using the strcpy and strncpy functions.  
 - *Example of strcpy*
  ```cpp
-char[3] hi;
+char hi[3];
 strcpy(hi, "hi");
 ```
 - You can also copy a shorter string into a longer one.  However, if you do the reverse, you will get an error.
  ```cpp
-char[100] longCString;
+char longCString[100];
 strcpy(longCString, "hi");
 ```
 - *Example of strncpy*
 ```cpp
-char[100] empty;
+char empty[100];
 strncpy(empty, hi, 99)
 ```
 - **Question**: What happens if we set the limit of charaters to copy to 100?
@@ -51,6 +51,7 @@ strncpy(empty, hi, 99)
 const int N=10;
 const int M=4;
 
+//This print statement has undefined behavior.  The positions after the sentinel are meaningless.
 void print(char arr[][N]){
   for(int i=0; i<M; i++){
     for(int j=0; j<N; j++)
@@ -60,6 +61,7 @@ void print(char arr[][N]){
   }
 }
 
+//This print statement should print all c strings as intended.
 void print2(char arr[][N]){
         for(int i=0; i<M; i++)
                 cout << arr[i] << endl;
@@ -175,5 +177,4 @@ bool insert(char str[], int max, int ind, char c){
       
 }
 ```
-## Homework 5 Question and Answer Session
-To be completed after discussion section.
+

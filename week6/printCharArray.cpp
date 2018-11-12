@@ -7,6 +7,8 @@ using namespace std;
 const int N=10;
 const int M=4;
 
+
+//This print statement has undefined behavior.  The positions after the sentinel are meaningless.
 void print(char arr[][N]){
   for(int i=0; i<M; i++){
     for(int j=0; j<N; j++)
@@ -16,6 +18,7 @@ void print(char arr[][N]){
   }
 }
 
+//This print statement should print all c strings as intended.
 void print2(char arr[][N]){
 	for(int i=0; i<M; i++)
 		cout << arr[i] << endl;
