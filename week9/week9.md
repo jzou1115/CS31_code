@@ -7,8 +7,7 @@
 - can have member functions in c++, but not generally part of the style
 - passing by value, reference, pointers all the same as data types you have worked with
 
-```cpp
-
+``` cpp
 struct account{
 
  double total;
@@ -192,11 +191,21 @@ cout << "Not valid age";
 }
  ```
  - function to find grandmother
+ 
+```cpp
+
+AnimalPtr findGrandmother(Animal& neville){
+
+ AnimalPtr mother = neville.getMother();
+
+ AnimalPtr grandmother = mother->getMother();
+
+ return grandmother;
+
+}```
 
 - function to sort by age
 ```cpp
-
-
 void sortAllAnimalsByAge(AnimalPtr* animals, int numAnimals){
 
   
@@ -229,22 +238,11 @@ cout << "sorted by age: " << endl;
 
  printAllAnimals(animals, numAnimals);
 
-}
+}  
 
-  
-
-AnimalPtr findGrandmother(Animal& neville){
-
- AnimalPtr mother = neville.getMother();
-
- AnimalPtr grandmother = mother->getMother();
-
- return grandmother;
-
-}
-
-  
-
+```
+- main function
+```cpp 
 int main(){
 
   

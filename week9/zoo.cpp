@@ -15,13 +15,13 @@ class Animal
 		void setMother(Animal* m);
 
 		//functions to get private variables
-		string getName();
-		string getSpecies();
-		int getAge();
-		Animal* getMother();
+		string getName() const;
+		string getSpecies() const;
+		int getAge() const;
+		Animal* getMother() const;
 
 		//additional functions
-		void print();
+		void print() const;
 		
 	private:
 		string name;
@@ -56,21 +56,21 @@ void Animal::setMother(AnimalPtr m){
 	mother = m;
 }
 
-string Animal::getName(){
+string Animal::getName() const{
 	return name;
 }	
-string Animal::getSpecies(){
+string Animal::getSpecies() const{
 	return species;
 }
-int Animal::getAge(){
+int Animal::getAge() const{
 	return age;
 }
 
-AnimalPtr Animal::getMother(){
+AnimalPtr Animal::getMother() const{
 	return mother;
 }
 
-void Animal::print(){
+void Animal::print() const{
 	cout << name << " the " << species << endl;
 }
 
