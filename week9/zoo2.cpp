@@ -135,6 +135,10 @@ int main(){
 	AnimalPtr neville_grandmother = findGrandmother(neville);
 	cout << "Neville's grandmother is " << neville_grandmother->getName()<< endl;
 
+	//Try to print Luna's grandmother
+	AnimalPtr luna_grandmother = findGrandmother(luna);
+	cout << "Luna's grandmother is " << luna_grandmother->getName() << endl;
+
 	delete luna;
 	delete jennifer;
 	delete neville;
